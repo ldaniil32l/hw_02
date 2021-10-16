@@ -19,6 +19,6 @@ contract Multiplication {
 
 	function mul(uint value) public checkOwnerAndAccept {
 		require(value <= 10 && value >= 1, 103);
-        prod *= value;
+        	prod *= value;
 	}
 }
